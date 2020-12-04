@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <title>El molde patrón</title>
+        <meta meta name="description" content="Las formas siempre han sido el centro de acción en la realización de productos y diseños en los diferentes trabajos manuales y de fabricación industrial, es por eso por lo que en este componente formativo se hace indispensable reconocerlas y trabajarlas junto con las unidades que dan la medida a las mismas, bienvenidos al contenido de geometría y unidades de medidas.">
+        <link rel="icon" type="image/svg+xml" href="assets/images/logos/senaLogo.svg">
+        <link rel="stylesheet" href="assets/fonts/feather/feather.css">
+        <link rel="stylesheet" href="assets/fonts/fontawesome/css/font-awesome.css">
+        <link href="assets/css/fancybox.css" rel="stylesheet">
+        <link href="assets/css/animate.css" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/main.css">
+    </head>
+    <body class="theme-dark page-header-textura" id="page-home">
+        <header class="curso-presentacion page-header" id="CursoPresentacion">
+            <div class="page-textura">
+                <div class="container">
+                    <div class="curso-topbar justify-content-center justify-content-md-between"><a class="curso-topbar__logo"><svg xmlns="http://www.w3.org/2000/svg" width="168.273" height="164.177" viewBox="0 0 168.273 164.177">
+                                <path id="SENA_LOGO" data-name="SENA LOGO" d="M85.349,1a18.09,18.09,0,1,0,18.09,18.09h0A18.1,18.1,0,0,0,85.349,1ZM25.617,42.983a33.722,33.722,0,0,0-9.386,1.024,11.156,11.156,0,0,0-5.12,2.56A5.346,5.346,0,0,0,10.086,52.2c.683,1.707,2.56,2.9,4.608,3.584,4.437,1.536,9.386,1.877,13.994,2.731a5.1,5.1,0,0,1,2.389,1.024,1.369,1.369,0,0,1-.683,2.048,9.146,9.146,0,0,1-5.291.683A8.354,8.354,0,0,1,20.5,61.244a1.962,1.962,0,0,1-.853-2.389H9.233A7.663,7.663,0,0,0,10.6,63.463a7.59,7.59,0,0,0,4.267,2.389A28.541,28.541,0,0,0,23.4,66.876,52.426,52.426,0,0,0,35,66.023a11.043,11.043,0,0,0,5.8-2.9,5.358,5.358,0,0,0-1.365-8.533,21.267,21.267,0,0,0-5.8-2.048c-3.072-.683-5.973-1.024-9.045-1.536a9.114,9.114,0,0,1-3.072-.853,1.226,1.226,0,0,1,0-2.219,9.369,9.369,0,0,1,4.437-.683,10.554,10.554,0,0,1,4.608.853A1.877,1.877,0,0,1,31.59,49.81h9.9a5.669,5.669,0,0,0-1.195-3.584A8.875,8.875,0,0,0,35.515,43.5c-3.584-.341-6.827-.512-9.9-.512Zm21.333.683V67.217H75.792V62.1H57.531V57.489H73.744V52.54H57.531V48.786H75.109v-5.12Zm47.615,0H81.253V67.217H91.322V51.346l13.824,15.872h13.824V43.666H108.9v15.7Zm42.495,0L120.676,67.217h10.581l2.56-4.267H150.2l2.389,4.267h11.776l-15.53-23.551ZM142.35,49.3l5.12,8.533h-10.41ZM.7,74.044l.171,12.8L49,86.673c2.389.512,3.925,2.048,3.413,5.8l-29.7,51.711,9.557,9.045L78.01,74.044Zm91.646,0L137.4,152.89l9.9-8.874L117.433,92.3c-.512-3.584.853-5.291,3.413-5.8l48.127.171V74.044ZM84.837,87.185,42.512,159.546l11.264,5.461,28.159-47.615a4.283,4.283,0,0,1,2.9-1.195,4.681,4.681,0,0,1,3.072,1.195l28.159,47.786,11.605-5.973Z" transform="translate(-0.7 -1)" fill="#FF6B00" />
+                            </svg>
+                        </a><a class="curso-topbar__menubar collapsed btn-menu-responsive d-none" data-toggle="collapse" href="#curso-topbar__nav" aria-expanded="false"><span></span><span></span><span></span></a>
+                        <nav class="curso-topbar__nav collapse show d-none d-md-block" id="curso-topbar__nav">
+                            <ul class="curso-topbar__list">
+                                <li class="curso-topbar__item"><a class="curso-topbar__link" href="#ResultadosAprendizaje"><span class="text-white">Resultados de aprendizaje</span></a></li>
+                                <li class="curso-topbar__item"><a class="curso-topbar__link" href="#IndiceTematico"><span class="text-white">Contenidos</span></a></li>
+                                <li class="curso-topbar__item"><a class="curso-topbar__link" href="#Creditos"><span class="text-white">Créditos</span></a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="curso-portada">
+                        <div class="row align-items-center">
+                            <div class="col-12 col-lg-6">
+                                <h3 class="curso-subtitulo" id="curso-titulo-componente">Elaboración manual de moldes para marroquinería </h3>
+                                <h1 class="curso-titulo" id="curso-titulo-tema">El molde patrón</h1>
+                                <div class="brand-line-primary"></div>
+                                <p class="curso-descripcion">Las formas siempre han sido el centro de acción en la realización de productos y diseños en los diferentes trabajos manuales y de fabricación industrial, es por eso por lo que en este componente formativo se hace indispensable reconocerlas y trabajarlas junto con las unidades que dan la medida a las mismas, bienvenidos al contenido de geometría y unidades de medidas.</p>
+                            </div>
+                            <div class="col-12 col-lg-6 text-center">
+                                <div class="d-none d-lg-block"><img class="curso-imagen" src="assets/images/header/header_media.svg" /></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="curso-resultados section bg-base-light" id="ResultadosAprendizaje">
+            <div class="container">
+                <h2> Resultados de <br>aprendizaje</h2>
+                <div class="brand-line-primary"></div>
+                <div class="card resultado-item">
+                    <div class="card-body">
+                        <ul class="bg-color-dark">
+                            <li> <span>291501080 - 2 -Elaborar el molde patrón de acuerdo a las especificaciones del producto. </span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="curso-indice-tematico section" id="IndiceTematico">
+            <div class="container">
+                <h2>Desarrollo de <br>contenidos</h2>
+                <div class="brand-line-primary"></div>
+                <div class="row justify-content-center">
+                    <div class="col-12 col-sm-10">
+                        <div class="card wow flipInX" data-wow-delay=".4s">
+                            <div class="card-body">
+                                <ul class="list-group list-group-flush list my-n3 nav-temas">
+                                    <li class="list-group-item nav-tema-item">
+                                        <div class="row align-items-center">
+                                            <div class="col-auto">
+                                                <div class="avatar avatar-sm"><span class="nav-tema-item__icon avatar-title font-size-lg bg-secondary-soft rounded-circle text-primary font-weight-bold"> <i class="fa fa-file-text-o"></i></span></div>
+                                            </div>
+                                            <div class="col ml-n2"><span class="nav-tema-item__titulo"> <a href="#intro">Introducción</a></span></div>
+                                            <div class="col-auto"> <a class="btn btn-light nav-tema-item__btn" href="#intro">Ver más</a></div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item nav-tema-item">
+                                        <div class="row align-items-center">
+                                            <div class="col-auto">
+                                                <div class="avatar avatar-sm"><span class="nav-tema-item__icon avatar-title font-size-lg bg-secondary-soft rounded-circle text-primary font-weight-bold">1</span></div>
+                                            </div>
+                                            <div class="col ml-n2"><span class="nav-tema-item__titulo"> <a href="#tema-1">La manufactura del cuero</a></span></div>
+                                            <div class="col-auto"> <a class="btn btn-light nav-tema-item__btn" href="#tema-1">Ver más</a></div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item nav-tema-item">
+                                        <div class="row align-items-center">
+                                            <div class="col-auto">
+                                                <div class="avatar avatar-sm"><span class="nav-tema-item__icon avatar-title font-size-lg bg-secondary-soft rounded-circle text-primary font-weight-bold">2</span></div>
+                                            </div>
+                                            <div class="col ml-n2"><span class="nav-tema-item__titulo"> <a href="#tema-2">Materiales e insumos utilizados en marroquinería</a></span></div>
+                                            <div class="col-auto"> <a class="btn btn-light nav-tema-item__btn" href="#tema-2">Ver más</a></div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item nav-tema-item">
+                                        <div class="row align-items-center">
+                                            <div class="col-auto">
+                                                <div class="avatar avatar-sm"><span class="nav-tema-item__icon avatar-title font-size-lg bg-secondary-soft rounded-circle text-primary font-weight-bold">3</span></div>
+                                            </div>
+                                            <div class="col ml-n2"><span class="nav-tema-item__titulo"> <a href="#tema-3">Materiales para la elaboración de moldes</a></span></div>
+                                            <div class="col-auto"> <a class="btn btn-light nav-tema-item__btn" href="#tema-3">Ver más</a></div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item nav-tema-item">
+                                        <div class="row align-items-center">
+                                            <div class="col-auto">
+                                                <div class="avatar avatar-sm"><span class="nav-tema-item__icon avatar-title font-size-lg bg-secondary-soft rounded-circle text-primary font-weight-bold">4</span></div>
+                                            </div>
+                                            <div class="col ml-n2"><span class="nav-tema-item__titulo"> <a href="#tema-4">Conceptos básicos de diseño para marroquinería</a></span></div>
+                                            <div class="col-auto"> <a class="btn btn-light nav-tema-item__btn" href="#tema-4">Ver más</a></div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item nav-tema-item">
+                                        <div class="row align-items-center">
+                                            <div class="col-auto">
+                                                <div class="avatar avatar-sm"><span class="nav-tema-item__icon avatar-title font-size-lg bg-secondary-soft rounded-circle text-primary font-weight-bold"> <i class="fa fa-sort-alpha-asc"></i></span></div>
+                                            </div>
+                                            <div class="col ml-n2"><span class="nav-tema-item__titulo"> <a href="#glosario">Glosario</a></span></div>
+                                            <div class="col-auto"> <a class="btn btn-light nav-tema-item__btn" href="#glosario">Ver más</a></div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item nav-tema-item">
+                                        <div class="row align-items-center">
+                                            <div class="col-auto">
+                                                <div class="avatar avatar-sm"><span class="nav-tema-item__icon avatar-title font-size-lg bg-secondary-soft rounded-circle text-primary font-weight-bold"> <i class="fa fa-folder-open"></i></span></div>
+                                            </div>
+                                            <div class="col ml-n2"><span class="nav-tema-item__titulo"> <a href="#anexos">Material complementario</a></span></div>
+                                            <div class="col-auto"> <a class="btn btn-light nav-tema-item__btn" href="#anexos">Ver más</a></div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item nav-tema-item">
+                                        <div class="row align-items-center">
+                                            <div class="col-auto">
+                                                <div class="avatar avatar-sm"><span class="nav-tema-item__icon avatar-title font-size-lg bg-secondary-soft rounded-circle text-primary font-weight-bold"> <i class="fa fa-book"></i></span></div>
+                                            </div>
+                                            <div class="col ml-n2"><span class="nav-tema-item__titulo"> <a href="#referencias">Referencias bibliográficas</a></span></div>
+                                            <div class="col-auto"> <a class="btn btn-light nav-tema-item__btn" href="#referencias">Ver más</a></div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="mainContent">
+            <div id="intro">
+                <div class="container">
+                    <div class="header-ecored">
+                        <h1>Introducción</h1>
+                    </div>
+                    <div class="jumbotron bg-white"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/img1.png">
+                        <p class="mt-5">El molde patrón es una herramienta básica en la producción de los productos en marroquinería ya que se presenta como la solución inicial y como su nombre lo dice una pieza maestra con la que se balancea todo el resto del contenido generado en un proceso marroquinero. Este molde patrón es una muestra real en formato que funciona como base productiva y su importancia se presenta en el presente material de formación, inicialmente se hace una descripción general de lo que significa y luego se hacen las muestras necesarias para que el aprendiz aprenda con una metodología de enseñanza centrada en el ejemplo cómo puede lograr esos moldes patrón de diferentes piezas, este componente trabaja con bolsos y billeteras pero su aplicación es general para todos los productos y categorías en marroquinería, bienvenido.</p>
+                    </div>
+                </div>
+            </div>
+            <div id="tema-1">
+                <div class="container">
+                    <div class="header-ecored">
+                        <h1>1. El molde patrón</h1>
+                    </div>
+                    <div class="jumbotron bg-white"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/img2.png">
+                        <p class="mt-5">Cuando se observa un artículo de marroquinería como un bolso o billetera, se puede visualizar una composición de diferentes piezas ancladas que conforman el todo; en el corte de estas piezas se hace necesario la elaboración de moldes y con ello la importancia de conocer las líneas de construcción, puntos de referencias y marcas; porque cada molde será usado en el corte o armado del producto final y con un buen diseño se logra un buen trabajo desde el principio del proceso como lo dice Gloria Marulanda (2007) “Son el diseñador y el modelista quienes proceden a identificar los escenarios donde el consumidor se desenvuelve: el entorno social, laboral. económico y religioso. Esto les permite identificar los componentes básicos de la propuesta de moda en términos de siluetas, materiales, texturas, accesorios, detalles”. </p>
+                        <div class="sub-ecored mt-5" id="11">
+                            <h2>1.1 Líneas de construcción para la elaboración del molde patrón. </h2>
+                        </div>
+                        <p class="mt-5">Son las líneas que tienen como objetivo trazar la simetría y diseño acertado del modelo y se dividen en las siguientes: </p>
+                        <div class="row justify-content-center align-items-center mt-5">
+                            <div class="col-12 col-md-10">
+                                <div class="list">
+                                    <div class="list__item">
+                                        <div class="list__item__icon"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/v1.svg"></div>
+                                    </div>
+                                    <div class="list__txt">
+                                        <p class="m-top">Líneas guía: líneas iniciales para realizar simetría se deben trazar y grafar.</p>
+                                    </div>
+                                </div>
+                                <div class="list">
+                                    <div class="list__item">
+                                        <div class="list__item__icon"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/v1.svg"></div>
+                                    </div>
+                                    <div class="list__txt">
+                                        <p class="m-top">Líneas constructivas: puntos o marcas que indican cómo construir el molde.</p>
+                                    </div>
+                                </div>
+                                <div class="list">
+                                    <div class="list__item">
+                                        <div class="list__item__icon"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/v1.svg"></div>
+                                    </div>
+                                    <div class="list__txt">
+                                        <p class="m-top">Piquetes: pequeños cortes en ángulo para identificar puntos de armado claves.</p>
+                                    </div>
+                                </div>
+                                <div class="list">
+                                    <div class="list__item">
+                                        <div class="list__item__icon"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/v1.svg"></div>
+                                    </div>
+                                    <div class="list__txt">
+                                        <p class="m-top">Marcado de moldes: información sobre referencia del bolso, pieza del bolso, piezas a cortar, material a cortar, aumentos, entre otros.</p>
+                                    </div>
+                                </div>
+                                <div class="list">
+                                    <div class="list__item">
+                                        <div class="list__item__icon"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/v1.svg"></div>
+                                    </div>
+                                    <div class="list__txt">
+                                        <p class="m-top">Calado: cortes pequeños con los cuales se pueden marcar con mina de plata, la posición de otras piezas del bolso para el armado.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sub-ecored mt-5" id="12">
+                            <h2>1.2 Moldes patrón </h2>
+                        </div>
+                        <p class="mt-5">A continuación, se muestran las líneas de construcción para la elaboración del molde patrón tomando como ejemplo el fuelle y el frente de un bolso tipo Baúl. </p>
+                        <p>También se muestra el correcto marcado de un molde el cual nos da información acerca de la referencia, las piezas a cortar y aumentos posteriores a la elaboración del patrón.</p>
+                        <p>Revisemos el proceso de trabajo para la elaboración del molde patrón, para este ejemplo se trabaja el bolso tipo baúl, para ello haga clic en cada uno de los enlaces que se presentan a continuación:</p>
+                        <div class="header-arrow py-4 my-5">
+                            <h3>Paso 1: Modelado bolso tipo baúl por el fuelle sobre cartulina. </h3>
+                        </div>
+                        <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/DF2nOIHke5s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe></div>
+                        <div class="header-arrow py-4 my-5">
+                            <h3>Paso 2: Medición y modelado de base, frente y espalda.</h3>
+                        </div>
+                        <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/NtcnpULAhzY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe></div>
+                        <div class="header-arrow py-4 my-5">
+                            <h3>Paso 3: Aumento molde de bolso tipo baúl, fuelle con aumentos.</h3>
+                        </div>
+                        <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/YNar4Duqxqs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe></div>
+                        <p class="mt-5">Los materiales que se usan en la elaboración de este molde de tipo patrón son los siguientes: escuadras, compas, cartulina, lápices, borrador, cinta métrica, micro punta de colores, cuchilla de corte. </p>
+                        <div class="header-arrow py-4 my-5">
+                            <h3>Molde patrón “Fuelle”, líneas de construcción </h3>
+                        </div><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/img3.png">
+                        <div class="header-arrow py-4 my-5">
+                            <h3>Molde con aumentos “Fuelle”</h3>
+                        </div><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/img4.png">
+                        <div class="header-arrow py-4 my-5">
+                            <h3>Molde patrón “Frente” </h3>
+                        </div><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/img5.png">
+                        <div class="header-arrow py-4 my-5">
+                            <h3>Molde con aumentos “Frente” </h3>
+                        </div><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/img6.png">
+                        <p class="mt-5">Para concluir el presente punto no olvides que:</p>
+                        <div class="row justify-content-center align-items-center mt-5">
+                            <div class="col-12 col-md-10">
+                                <div class="list">
+                                    <div class="list__item">
+                                        <div class="list__item__icon"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/v1.svg"></div>
+                                    </div>
+                                    <div class="list__txt">
+                                        <p class="m-top">Las líneas de construcción para la elaboración de moldes son fundamentales en el modelaje de marroquinería </p>
+                                    </div>
+                                </div>
+                                <div class="list">
+                                    <div class="list__item">
+                                        <div class="list__item__icon"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/v1.svg"></div>
+                                    </div>
+                                    <div class="list__txt">
+                                        <p class="m-top">Hay que recordar que el molde patrón no tiene aumentos, sirve para constatar las dimensiones y proporciones del bolso.</p>
+                                    </div>
+                                </div>
+                                <div class="list">
+                                    <div class="list__item">
+                                        <div class="list__item__icon"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/v1.svg"></div>
+                                    </div>
+                                    <div class="list__txt">
+                                        <p class="m-top">Los patrones son la base para dar los aumentos para guarnición.</p>
+                                    </div>
+                                </div>
+                                <div class="list">
+                                    <div class="list__item">
+                                        <div class="list__item__icon"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/v1.svg"></div>
+                                    </div>
+                                    <div class="list__txt">
+                                        <p class="m-top">Los moldes que tienen aumentos sirven para cortar el material con el cual se va a elaborar el producto.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="mt-5">Ahora si como lo dice Ramírez (2009) inicia el trabajo “Después del diseño y elaboración de los patrones que forman un nuevo estilo de calzado, se puede decir que en el corte y troquelado se inicia el proceso productivo propiamente dicho, ya que es aquí donde se le da a la piel u otros materiales la misma forma de las piezas patrones”.</p>
+                    </div>
+                </div>
+            </div>
+            <div id="tema-2">
+                <div class="container">
+                    <div class="header-ecored">
+                        <h1>2. Materiales e insumos utilizados en marroquinería.</h1>
+                    </div>
+                    <div class="jumbotron bg-white"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/img7.png">
+                        <p class="mt-5">En este capítulo se abordarán los conceptos relacionados con las unidades de medida más usados en este proceso. La atención se centrará en conceptos como metrología, el sistema de medición y el principal sistema de unidades.</p>
+                        <div class="sub-ecored mt-5" id="21">
+                            <h2>2.1 Metrología. </h2>
+                        </div>
+                        <div class="row justify-content-center align-items-center mt-5">
+                            <div class="col-12 col-md-4"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/img8.png"></div>
+                            <div class="col-12 col-md-8">
+                                <p>La metrología es la ciencia e ingeniería de la medida, incluyendo el estudio, mantenimiento y aplicación del sistema de pesos y medidas. </p>
+                                <p>Actúa tanto en los ámbitos científico, industrial y legal, como en cualquier otro demandado por la sociedad. </p>
+                                <p>Su objetivo fundamental es la obtención y expresión del valor de las magnitudes, garantizando la trazabilidad de los procesos y la consecución de la exactitud requerida en cada caso; empleando para ello instrumentos métodos y medios apropiados.</p>
+                            </div>
+                        </div>
+                        <div class="sub-ecored mt-5" id="22">
+                            <h2>2.2 Medición </h2>
+                        </div>
+                        <div class="row justify-content-center align-items-center mt-5">
+                            <div class="col-12 col-md-4"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/img9.png"></div>
+                            <div class="col-12 col-md-8">
+                                <p>La medición es la acción de medir, o sea, determinar mediante instrumentos o mediante una relación o fórmula previa un resultado dentro de los parámetros escogidos.</p>
+                                <p>La medición deriva del verbo medir que a su vez viene de la palabra latina metriri que significa: “comparar una cantidad con su respectiva unidad, con el fin de averiguar cuántas veces la segunda está contenida en la primera” RAE (2020).</p>
+                                <p>La medición sirve para determinar magnitudes de un objeto en relación con otro objeto que sirve de patrón, que es definido antes por un consenso. Hoy en día, estos modelos de comparación que usamos todos los días como, por ejemplo, el kilo, la temperatura y los centímetros, están unificados en lo que se conoce como el Sistema internacional de medidas (SI).</p>
+                            </div>
+                        </div>
+                        <div class="sub-ecored mt-5" id="23">
+                            <h2>2.3 Sistema Internacional (SI) </h2>
+                        </div>
+                        <div class="row justify-content-center align-items-center mt-5">
+                            <div class="col-12 col-md-4"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/img10.png"></div>
+                            <div class="col-12 col-md-8">
+                                <p>El Sistema Internacional de Unidades, abreviado S.I., también denominado Sistema Internacional de Medidas, es el heredero del antiguo sistema métrico decimal, por lo que el S.I. también es conocido de forma genérica como sistema métrico.</p>
+                                <p>Es un sistema constituido por siete unidades básicas: metro, kilogramo, segundo, kelvin, amperio, mol y candela, que definen a las correspondientes magnitudes físicas fundamentales y que han sido elegidas por convención y se nombran como lo dice Llópiz & Gómez (1998) “Existen varias reglas y especificaciones en cuanto al uso de la simbología del SI.Se recomienda el uso de letras minúsculas en los símbolos o las abreviaturas (ejemplos: m, kg, s, mol,cd )”.</p>
+                            </div>
+                        </div>
+                        <div class="sub-ecored mt-5" id="24">
+                            <h2>2.4 Magnitud y unidades básicas</h2>
+                        </div>
+                        <div class="row justify-content-center align-items-center mt-5">
+                            <div class="col-12 col-md-4"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/img11.png"></div>
+                            <div class="col-12 col-md-8">
+                                <p>La magnitud física es una propiedad de los cuerpos y elementos que permite que sean medibles y, en algunos casos, observables. Asimismo, las magnitudes pueden ser de dos tipos: escalares y vectoriales en las que las primeras tienen la opción de indicar con un número el valor mientras que las vectoriales necesitan también un vector de representación que actúa para complementar la información numérica como por ejemplo la fuerza que tiene un valor y un sentido. </p>
+                            </div>
+                        </div>
+                        <div class="header-arrow py-4 my-5">
+                            <h3>En el Sistema Internacional de Unidades, las magnitudes que se cuantifican son: </h3>
+                        </div><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/img12.png">
+                        <div class="sub-ecored mt-5" id="25">
+                            <h2>2.5 Múltiplos y submúltiplos del metro </h2>
+                        </div>
+                        <p class="mt-5">La siguiente tabla presenta los símbolos y equivalencias de los múltiplos de la unidad de medida metro, se debe saber que los submúltiplos son los que se usan en la industria del cuero. </p><img class="img-a mt-5 img-fluid" src="assets/images/pages/ilustraciones/img13.png">
+                        <div class="list mt-5">
+                            <div class="list__item">
+                                <div class="list__item__icon"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/v2.svg"></div>
+                            </div>
+                            <div class="list__txt">
+                                <p class="m-top">Conversiones submúltiplos de longitud</p>
+                            </div>
+                        </div>
+                        <div class="header-arrow py-4 my-5">
+                            <h3>Equivalencias del metro. </h3>
+                        </div><img class="img-a mt-5 img-fluid" src="assets/images/pages/ilustraciones/img14.png">
+                        <div class="header-arrow py-4 my-5">
+                            <h3>Unidades del metro. </h3>
+                        </div><img class="img-a mt-5 img-fluid" src="assets/images/pages/ilustraciones/img15.png">
+                        <div class="sub-ecored mt-5" id="26">
+                            <h2>2.6 Conversión del sistema inglés al SI</h2>
+                        </div>
+                        <p class="mt-5">“Desde el nacimiento de la civilización, la comparación ha sido siempre muy importante. De hecho uno de los primeros conceptos que los niños aprenden en la escuela es el concepto de la relación de orden expresada por más pequeño o más grande que e inclusive, es igual que” Ledanois & López 1996; es por esa medición y esa gestión que se hace necesario relacionar todos los conceptos de medidas trabajados hasta el momento y lograr un factor de equilibrio que permita trabajar las unidades de los dos sistemas de manera equivalente como lo muestra la siguiente tabla con la que se puede realizar las conversiones necesarias en el área del cuero y la marroquinería para el trabajo.</p><img class="img-a mt-5 img-fluid" src="assets/images/pages/ilustraciones/img16.png">
+                        <div class="sub-ecored mt-5" id="27">
+                            <h2>2.7 Unidades de medida del cuero en el comercio</h2>
+                        </div>
+                        <p class="mt-5">Comercialmente en las talabarterías y en los diferentes centros de acopio y comercialización del cuero se presentan las siguientes medidas, usted como marroquinero debe tenerlo en cuenta porque es la parte que va a direccionar el costo del producto entre otros factores.</p><img class="img-a mt-5 img-fluid" src="assets/images/pages/ilustraciones/img17.png">
+                        <div class="sub-ecored mt-5" id="28">
+                            <h2>2.8 Instrumentos para medir utilizados en marroquinería</h2>
+                        </div>
+                        <p class="mt-5">Estos son los instrumentos más comunes a la hora de medir en marroquinería</p>
+                        <div class="sub-ecored-teme mt-5">
+                            <h3>Calibrador, también llamado pie de rey o calibre vernier </h3>
+                        </div>
+                        <div class="jumbotron mt-5 bg-4">
+                            <div class="row justify-content-center align-items-center">
+                                <div class="col-12 col-md-8">
+                                    <p>“El pie de rey incluye dos juegos de pinzas que sirven para medir exteriores e interiores. Además, gracias a la sonda de profundidad, el calibre tipo pie de rey también se puede usar para medir el fondo de un orificio ciego, ranuras, cavidades, etcétera” Papelería-Técnica (2020).</p>
+                                </div>
+                                <div class="col-12 col-md-4"> <img class="img-a img-fluid" src="assets/images/pages/ilustraciones/img18.png"></div>
+                            </div>
+                        </div>
+                        <div class="sub-ecored-teme mt-5">
+                            <h3>Micrómetro, también llamado tornillo de Palmer </h3>
+                        </div>
+                        <div class="jumbotron mt-5 bg-4">
+                            <div class="row justify-content-center align-items-center">
+                                <div class="col-12 col-md-8">
+                                    <p>“Un micrómetro, también llamado Tornillo de Palmer, es un instrumento de medición cuyo funcionamiento está basado en el tornillo micrométrico y que sirve para medir las dimensiones de un objeto con alta precisión, del orden de centésimas de milímetros (0,01 mm) y de milésimas de milímetros (0,001mm)” Ingeniería Mecafenix (2018). </p>
+                                </div>
+                                <div class="col-12 col-md-4"> <img class="img-a img-fluid" src="assets/images/pages/ilustraciones/img19.png"></div>
+                            </div>
+                        </div>
+                        <div class="sub-ecored-teme mt-5">
+                            <h3>Micrómetro digital </h3>
+                        </div>
+                        <div class="jumbotron mt-5 bg-4">
+                            <div class="row justify-content-center align-items-center">
+                                <div class="col-12 col-md-8">
+                                    <p>“El micrómetro digital es un instrumento portátil para medir longitudes entre sus dos contactos de medida. El sistema de medida es directo y consta de un cuerpo con un tope fijo y otro móvil provisto de una cabeza micrométrica. La ejecución de la medición da como resultado la longitud de un elemento. El micrómetro digital suele tener un campo de medida de 25 mm aunque existen micrómetros de medidas superiores a 1 metro” Femto (2020).</p>
+                                </div>
+                                <div class="col-12 col-md-4"> <img class="img-a img-fluid" src="assets/images/pages/ilustraciones/img20.png"></div>
+                            </div>
+                        </div>
+                        <div class="sub-ecored-teme mt-5">
+                            <h3>Cinta métrica </h3>
+                        </div>
+                        <div class="jumbotron mt-5 bg-4">
+                            <div class="row justify-content-center align-items-center">
+                                <div class="col-12 col-md-8">
+                                    <p>“Instrumento de medida que consiste en una cinta flexible graduada y se puede enrollar, haciendo que el transporte sea más fácil” Ecured (2020). </p>
+                                </div>
+                                <div class="col-12 col-md-4"> <img class="img-a img-fluid" src="assets/images/pages/ilustraciones/img21.png"></div>
+                            </div>
+                        </div>
+                        <div class="sub-ecored-teme mt-5">
+                            <h3>Regla graduada </h3>
+                        </div>
+                        <div class="jumbotron mt-5 bg-4">
+                            <div class="row justify-content-center align-items-center">
+                                <div class="col-12 col-md-8">
+                                    <p>“Regla graduada Instrumento de medición con forma de plancha delgada y rectangular que incluye una escala graduada dividida en unidades de longitud, por ejemplo, centímetros o pulgadas” Ecured (2020). </p>
+                                </div>
+                                <div class="col-12 col-md-4"> <img class="img-a img-fluid" src="assets/images/pages/ilustraciones/img22.png"></div>
+                            </div>
+                        </div>
+                        <p class="mt-5">A manera de conclusión se presentan los siguientes puntos para que los tenga en cuenta:</p>
+                        <div class="row justify-content-center align-items-center mt-5">
+                            <div class="col-12 col-md-10">
+                                <div class="list">
+                                    <div class="list__item">
+                                        <div class="list__item__icon"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/v1.svg"></div>
+                                    </div>
+                                    <div class="list__txt">
+                                        <p class="m-top">El Sistema Internacional de Medidas, es el sistema que utilizamos en nuestro país.</p>
+                                    </div>
+                                </div>
+                                <div class="list">
+                                    <div class="list__item">
+                                        <div class="list__item__icon"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/v1.svg"></div>
+                                    </div>
+                                    <div class="list__txt">
+                                        <p class="m-top">Las medidas son importantes para la estandarización.</p>
+                                    </div>
+                                </div>
+                                <div class="list">
+                                    <div class="list__item">
+                                        <div class="list__item__icon"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/v1.svg"></div>
+                                    </div>
+                                    <div class="list__txt">
+                                        <p class="m-top">Existen medidas del sistema inglés en el mercado las cuales pueden convertirse fácilmente SI.</p>
+                                    </div>
+                                </div>
+                                <div class="list">
+                                    <div class="list__item">
+                                        <div class="list__item__icon"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/v1.svg"></div>
+                                    </div>
+                                    <div class="list__txt">
+                                        <p class="m-top">El cuero puede encontrarse en unidades de pie² o decímetro².</p>
+                                    </div>
+                                </div>
+                                <div class="list">
+                                    <div class="list__item">
+                                        <div class="list__item__icon"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/v1.svg"></div>
+                                    </div>
+                                    <div class="list__txt">
+                                        <p class="m-top">Existen varios instrumentos de medida para el área de marroquinería que nos ayuda a estandarizar y contabilizar la materia prima. </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="tema-3">
+                <div class="container">
+                    <div class="header-ecored">
+                        <h1>3. Los sistemas de modelaje</h1>
+                    </div>
+                    <div class="jumbotron bg-white"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/img23.png">
+                        <p class="mt-5">A continuación, se presentan una serie de videos con los modelajes de cada elemento, lo invitamos a revisarlos todos. </p>
+                        <div class="sub-ecored mt-5" id="31">
+                            <h2>3.1 Bolso tipo pinza </h2>
+                        </div>
+                        <div class="sub-ecored-teme mt-5">
+                            <h3>Bolso tipo pinza boceto. </h3>
+                        </div>
+                        <p class="mb-5">El primero de los videos muestra el orden en que se recomienda hacer el boceto junto con la forma ideal para producirlo.</p>
+                        <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/xB0XndmqFzA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe></div>
+                        <div class="sub-ecored-teme my-5">
+                            <h3>Bolso tipo pinza paso 1 molde patrón</h3>
+                        </div>
+                        <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/Tyae0skn6E0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe></div>
+                        <div class="sub-ecored-teme my-5">
+                            <h3>Bolso tipo pinza paso 2 portacremallera</h3>
+                        </div>
+                        <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/s5Wemc71KU0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe></div>
+                        <div class="sub-ecored-teme my-5">
+                            <h3>Bolso tipo pinza paso 3 ubicación de chapetas en el molde patrón</h3>
+                        </div>
+                        <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/qn8yIxaHILc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe></div>
+                        <div class="sub-ecored-teme my-5">
+                            <h3>Bolso tipo pinza paso 4 bocacremallera</h3>
+                        </div>
+                        <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/lS53F73qkIs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe></div>
+                        <div class="sub-ecored-teme my-5">
+                            <h3>Bolso tipo pinza paso 5 molde del forro</h3>
+                        </div>
+                        <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/Po6qNW3yKKo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe></div>
+                        <div class="sub-ecored-teme my-5">
+                            <h3>Bolso tipo pinza paso 6 refuerzo de la base</h3>
+                        </div>
+                        <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/1Z2VIPyg1ZY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe></div>
+                        <div class="sub-ecored-teme my-5">
+                            <h3>Bolso tipo pinza paso 7 manija del bolso</h3>
+                        </div>
+                        <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/XfRLpB3J6hc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe></div>
+                        <div class="sub-ecored-teme my-5">
+                            <h3>Bolso tipo pinza paso 8 puntera cremallera</h3>
+                        </div>
+                        <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/5TCKwKKZlNU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+                        <div class="sub-ecored-teme my-5">
+                            <h3>Bolso tipo pinza paso 9 industrialización de moldes</h3>
+                        </div>
+                        <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/sLe6SyYjObc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe></div>
+                        <div class="sub-ecored mt-5" id="32">
+                            <h2>3.2 Bolso curvo con pinza</h2>
+                        </div>
+                        <div class="sub-ecored-teme my-5">
+                            <h3>Bolso curvo con pinza paso 1 elaborar el molde patrón</h3>
+                        </div>
+                        <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/UwFQOsuHRjA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe></div>
+                        <div class="sub-ecored-teme my-5">
+                            <h3>Bolso curvo con pinza paso 2 falso interno o portacierre</h3>
+                        </div>
+                        <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/smPKqFE6O5o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe></div>
+                        <div class="sub-ecored-teme my-5">
+                            <h3>Bolso curvo con pinza paso 3 forro del bolso</h3>
+                        </div>
+                        <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/5jhLHaCs03U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe></div>
+                        <div class="sub-ecored-teme my-5">
+                            <h3>Bolso curvo con pinza paso 4 industrialización de los moldes</h3>
+                        </div>
+                        <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/mIxm8rysZ5M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe></div>
+                        <div class="sub-ecored mt-5" id="33">
+                            <h2>3.3 Bolso con base</h2>
+                        </div>
+                        <div class="sub-ecored-teme my-5">
+                            <h3>Bolso con base paso 1 elaboración molde de la base</h3>
+                        </div>
+                        <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/V7tnilpvjtQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe></div>
+                        <div class="sub-ecored-teme my-5">
+                            <h3>Bolso con Base Paso 2 cuerpo del bolso</h3>
+                        </div>
+                        <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/dlu8WbLGd9c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe></div>
+                        <div class="sub-ecored-teme my-5">
+                            <h3>Bolso con base paso 3 falso interno portacierre</h3>
+                        </div>
+                        <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/of1nXk67qVE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe></div>
+                        <div class="sub-ecored-teme my-5">
+                            <h3>Bolso con base paso 4 forro del bolso</h3>
+                        </div>
+                        <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/slnxoyhdhoY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe></div>
+                        <div class="sub-ecored-teme my-5">
+                            <h3>Bolso con base paso 5 y 6 refuerzo base:</h3>
+                        </div>
+                        <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/F-qQNyzH9SM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe></div>
+                        <div class="sub-ecored mt-5" id="34">
+                            <h2>3.4 Bolso de giro</h2>
+                        </div>
+                        <div class="sub-ecored-teme my-5">
+                            <h3>Bolso de giro paso 1</h3>
+                        </div>
+                        <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/jisIeFw6yGM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe></div>
+                        <div class="sub-ecored-teme my-5">
+                            <h3>Bolso de giro elaboración fuelle del bolso paso 2</h3>
+                        </div>
+                        <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/RVv5MwJZ54Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe></div>
+                        <div class="sub-ecored-teme my-5">
+                            <h3>Bolso de giro paso 3 y 4</h3>
+                        </div>
+                        <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/awpCYQuAHD4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+                        <div class="sub-ecored mt-5" id="35">
+                            <h2>3.5 Billetera larga</h2>
+                        </div>
+                        <div class="sub-ecored-teme my-5">
+                            <h3>Billetera larga paso 1 elaborar molde patrón</h3>
+                        </div>
+                        <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/JKJk85ORMOg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe></div>
+                        <div class="sub-ecored-teme my-5">
+                            <h3>Billetera larga paso 2 elaborar forro</h3>
+                        </div>
+                        <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/IS3JIse2kc4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe></div>
+                        <div class="sub-ecored-teme my-5">
+                            <h3>Billetera larga paso 3 elaborar falso de la tapa</h3>
+                        </div>
+                        <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/smgLpngjdz0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe></div>
+                        <div class="sub-ecored-teme my-5">
+                            <h3>Billetera larga paso 4 elaborar molde de la billetera</h3>
+                        </div>
+                        <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/EWh8QQKLHWQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe></div>
+                        <div class="sub-ecored-teme my-5">
+                            <h3>Billetera larga paso 5 elaborar molde del forro de la billetera</h3>
+                        </div>
+                        <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/qFVWv2Q4SHI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe></div>
+                        <div class="sub-ecored-teme my-5">
+                            <h3>Billetera larga paso 6 elaboración molde lomo o giro</h3>
+                        </div>
+                        <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/5TkNhP2WVqo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe></div>
+                        <div class="sub-ecored-teme my-5">
+                            <h3>Billetera larga paso 7 elaborar molde del portadocumentos</h3>
+                        </div>
+                        <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/HlAWaXWrl2I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe></div>
+                        <div class="sub-ecored-teme my-5">
+                            <h3>Billetera larga paso 8 elaborar falsos internos</h3>
+                        </div>
+                        <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/k2AxCgQxG74" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe></div>
+                        <div class="sub-ecored mt-5" id="36">
+                            <h2>4.6 Elaboración de molde billetera corta </h2>
+                        </div>
+                        <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/b92IcayEHyk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+                    </div>
+                </div>
+            </div>
+            <div id="glosario">
+                <div class="container">
+                    <div class="header-ecored">
+                        <h1>Glosario</h1>
+                    </div>
+                    <div class="jumbotron bg-white">
+                        <p><strong class="mr-2">Herramientas:</strong>Son aquellos bienes tangibles que generalmente son de hierro o acero y que se usa con las manos y que sirve para realizar un determinado trabajo. </p>
+                        <p><strong class="mr-2">Máquinas:</strong>Son aquellos bienes tangibles que están formados por diferentes piezas móviles y fijas que aprovechan la energía que tiene para realizar un trabajo determinado.</p>
+                        <p> <strong class="mr-2"> Materia prima:</strong>Es el material extraído de la naturaleza susceptible de cambio o transformación industrial que se usan como base para la elaboración de nuevos productos.</p>
+                        <p><strong class="mr-2">Producto:</strong>Son bienes como mercancías u objetos pero también pueden ser servicios, los cuales van a cumplir una función social al suplir una necesidad del mercado (consumidores). Zapatos, libros etc.</p>
+                    </div>
+                </div>
+            </div>
+            <div id="anexos">
+                <div class="container">
+                    <div class="header-ecored">
+                        <h1>Material complementario</h1>
+                    </div>
+                    <div class="jumbotron bg-white">
+                        <table class="table table-bordered table-striped">
+                            <thead class="thead-dark">
+                                <tr>
+                                    <th class="text-center">Nombre del documento o material.</th>
+                                    <th class="text-center">Tipo de material. </th>
+                                    <th class="text-center">Enlace del Recurso.</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Chicaiza, D. (2020). Baúl UTS fuelle.</td>
+                                    <td>Video grabado por el experto técnico</td>
+                                    <td> <a href="https://youtu.be/7P9cPpRcMS0" target="_blank"><span class="fa fa-youtube-play mr-3" aria-hidden="true"></span> ver</a></td>
+                                </tr>
+                                <tr>
+                                    <td>Chicaiza, D. (2020). Baúl UTS2.</td>
+                                    <td>Video grabado por el experto técnico</td>
+                                    <td> <a href="https://youtu.be/pm_37pNS59g" target="_blank"><span class="fa fa-youtube-play mr-3" aria-hidden="true"></span> ver </a></td>
+                                </tr>
+                                <tr>
+                                    <td>Chicaiza, D. (2020). Baúl UTS3.</td>
+                                    <td>Video grabado por el experto técnico</td>
+                                    <td> <a href="https://youtu.be/cAYepcIn2so" target="_blank"><span class="fa fa-youtube-play mr-3" aria-hidden="true"></span> ver </a></td>
+                                </tr>
+                                <tr>
+                                    <td>Stefanelli (2020). Calibre virtual simulador milimetro. </td>
+                                    <td>Calibrador Pie de Rey virtual</td>
+                                    <td> <a href="https://www.stefanelli.eng.br/es/calibre-virtual-simulador-milimetro-05/" target="_blank"><span class="fa fa-link mr-3" aria-hidden="true"></span> ver </a></td>
+                                </tr>
+                                <tr>
+                                    <td>Khan Academy (2020). Conversión de unidades: distancia métrica. </td>
+                                    <td>Recurso interactivo de práctica</td>
+                                    <td> <a href="https://es.khanacademy.org/math/cc-fifth-grade-math/imp-measurement-and-data-3/imp-unit-conversion/v/ordering-metric-distances" target="_blank"><span class="fa fa-link mr-3" aria-hidden="true"></span> ver</a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div id="referencias">
+                <div class="container">
+                    <div class="header-ecored">
+                        <h1>Referencias bibliográficas</h1>
+                    </div>
+                    <div class="jumbotron bg-white referencias">
+                        <p>Ecured (2020). Cinta métrica. <a class="ml-2" href="https://www.ecured.cu/Cinta_m%C3%A9trica#:~:text=Instrumento%20de%20medida%20que%20consiste,diferentes%20materiales%20y%20diferentes%20longitudes" target="_blank">https://www.ecured.cu/Cinta_m%C3%A9trica#:~:text=Instrumento%20de%20medida%20que%20consiste,diferentes%20materiales%20y%20diferentes%20longitudes</a></p>
+                        <hr>
+                        <p>Ecured (2020). Regla graduada. <a class="ml-2" href="https://www.ecured.cu/Regla_graduada" target="_blank">https://www.ecured.cu/Regla_graduada</a></p>
+                        <hr>
+                        <p>Fento Instruments (2020). Micrometro digital | FEMTO. <a class="ml-2" href="https://femto.es/micrometro-digital" target="_blank">https://femto.es/micrometro-digital</a></p>
+                        <hr>
+                        <p>Ingeniería Mecafenix (2018). ¿Qué es el micrómetro y para qué sirve? <a class="ml-2" href="https://www.ingmecafenix.com/medicion/micrometro/" target="_blank">https://www.ingmecafenix.com/medicion/micrometro/</a></p>
+                        <hr>
+                        <p>Marulanda, G. (2007). CARTILLA DE MARROQUINERÍA MODELAJE DE BOLSOS. <a class="ml-2" href="https://repositorio.sena.edu.co/bitstream/11404/4866/1/cartilla_marroquineria_modelaje_bolsos.pdf" target="_blank">https://repositorio.sena.edu.co/bitstream/11404/4866/1/cartilla_marroquineria_modelaje_bolsos.pdf</a></p>
+                        <hr>
+                        <p>Ledanois, J. &amp; López, A. (1996). Magnitudes, dimensiones y conversiones de unidades. <a class="ml-2" href="https://books.google.es/books?hl=es&amp;lr=&amp;id=ukHjzFoHPtIC&amp;oi=fnd&amp;pg=PA1&amp;dq=conversi%C3%B3n+de+unidades+si+&amp;ots=_yNKN1Xz5j&amp;sig=_o71cwCfhooGLmc4f29CUKbnjYA#v=onepage&amp;q=conversi%C3%B3n%20de%20unidades%20si&amp;f=false" target="_blank">https://books.google.es/books?hl=es&amp;lr=&amp;id=ukHjzFoHPtIC&amp;oi=fnd&amp;pg=PA1&amp;dq=conversi%C3%B3n+de+unidades+si+&amp;ots=_yNKN1Xz5j&amp;sig=_o71cwCfhooGLmc4f29CUKbnjYA#v=onepage&amp;q=conversi%C3%B3n%20de%20unidades%20si&amp;f=false</a></p>
+                        <hr>
+                        <p>Llópiz, M &amp; Gómez, O. (1998). El sistema internacional de unidades. <a class="ml-2" href="https://saludpublica.mx/index.php/spm/article/view/138/131" target="_blank">https://saludpublica.mx/index.php/spm/article/view/138/131</a></p>
+                        <hr>
+                        <p>Papelería-Técnica (2020). ¿Qué es un pie de rey y para qué sirve? Información sobre el calibre tipo pie de rey. <a class="ml-2" href="https://papeleria-tecnica.net/que-es-un-pie-de-rey/" target="_blank">https://papeleria-tecnica.net/que-es-un-pie-de-rey/</a></p>
+                        <hr>
+                        <p>RAE (2020). Medir. <a class="ml-2" href="https://dle.rae.es/medir" target="_blank">https://dle.rae.es/medir</a></p>
+                        <hr>
+                        <p>Ramírez, A. (2009). Reutilización de retales de cuero para la elaboración de una línea de productos de marroquinería. <a class="ml-2" href="https://repositorio.ucp.edu.co/bitstream/10785/422/1/completo.pdf" target="_blank">https://repositorio.ucp.edu.co/bitstream/10785/422/1/completo.pdf</a></p>
+                        <hr>
+                        <div class="row justify-content-between align-items-center">
+                            <div class="col-12 col-md-5 my-4">
+                                <div class="jumbotron p-4">
+                                    <div class="d-flex justify-content-center align-items-center">
+                                        <p class="text-center pl-4"><i class="fa fa-picture-o fa-2x text-center"></i></p>
+                                        <p class="text-center flex-grow-1">Fotografías y vectores tomados de <a href="https://www.shutterstock.com/" target="_blank">https://www.shutterstock.com/</a> y <a href="https://www.freepik.es/" target="_blank">https://www.freepik.es/</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-5 my-4">
+                                <div class="jumbotron p-4">
+                                    <div class="d-flex justify-content-center align-items-center">
+                                        <p class="text-center pl-4"><i class="fa fa-creative-commons fa-2x text-center"></i></p>
+                                        <p class="text-center flex-grow-1">Licencia Creative Commons <br> <strong>CC BY-NC-SA</strong><br> <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/es/" target="_blank">Ver licencia.</a> </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer" id="Creditos">
+            <div class="container">
+                <h1>Créditos </h1>
+                <div class="brand-line-primary"></div>
+                <div class="row">
+                    <div class="col-12 col-md-5">
+                        <h3 class="footer-subtitulo mb-4">ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES </h3>
+                        <p class="footer-texto mb-2"><strong>Ingry Dayanna Bonilla Monzon </strong><br /> <span class="text-small">Líder del equipo</span></p>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-12 col-md-6">
+                        <h4 class="footer-subtitulo-2 mt-0">
+                            <div class="fa fa-caret-right mr-2"></div>Contenido Instruccional
+                        </h4>
+                        <p class="footer-texto mb-2"><strong>Gloria Matilde Lee Mejía </strong><br /> <span class="text-small">Responsable del equipo</span></p>
+                        <p class="footer-texto"><span class="text-small text-uppercase">Centro de Comercio y Servicios</span><br><span class="text-small">Regional Tolima</span></p>
+                        <p class="footer-texto mb-2"><strong>Rafael Nelftalí Lizcano Reyes</strong><br /> <span class="text-small">Asesor pedagógico<br /></span></p>
+                        <p class="footer-texto"><span class="text-small text-uppercase">CENTRO INDUSTRIAL DEL DISEÑO Y LA MANUFACTURA </span><br><span class="text-small">Regional Santander </span></p>
+                        <p class="footer-texto mb-2"><strong>Nohora Amparo Nieto Cárdenas</strong><br /><span class="text-small">Experta temática<br /></span></p>
+                        <p class="footer-texto"><span class="text-small text-uppercase">Centro Industrial del Diseño y la Manufactura</span><br><span class="text-small">Regional Distrito Capital</span></p>
+                        <p class="footer-texto mb-2"><strong>Yanneth Briceno Orduz</strong><br /><span class="text-small">Experta temática<br /></span></p>
+                        <p class="footer-texto"><span class="text-small text-uppercase">Centro Industrial del Diseño y la Manufactura</span><br><span class="text-small">Regional Distrito Capital</span></p>
+                        <p class="footer-texto mb-2"><strong>Daniel Alejandro Chicaiza Muriel</strong><br /><span class="text-small">Experto temático<br /></span></p>
+                        <p class="footer-texto"><span class="text-small text-uppercase">Centro Industrial del Diseño y la Manufactura</span><br><span class="text-small">Regional Distrito Capital </span></p>
+                        <p class="footer-texto mb-2"><strong>Luis Fernando Botero Mendoza</strong><br /><span class="text-small">Diseñador Instruccional <br /></span></p>
+                        <p class="footer-texto"><span class="text-small text-uppercase">Centro para la Industria de la Comunicación Gráfica</span><br><span class="text-small">Regional Distrito Capital</span></p>
+                        <p class="footer-texto mb-2"><strong>Alix Cecilia Chinchilla Rueda</strong><br /> <span class="text-small">Evaluador instruccional<br /></span></p>
+                        <p class="footer-texto"><span class="text-small text-uppercase">Centro de Diseño y Metrología</span><br><span class="text-small">Regional Distrito Capital</span></p>
+                        <p class="footer-texto mb-2"><strong>Silvia Milena Sequeda</strong><br /> <span class="text-small">Evaluador instruccional<br /></span></p>
+                        <p class="footer-texto"><span class="text-small text-uppercase">Centro de Diseño y Metrología</span><br><span class="text-small">Regional Distrito Capital</span></p>
+                        <p class="footer-texto mb-2"><strong>Julieth Paola Vital López</strong><br /> <span class="text-small">Revisora de estilo<br /></span></p>
+                        <p class="footer-texto"><span class="text-small text-uppercase">Centro para la Industria y la Comunicación Gráfica</span><br><span class="text-small">Regional Distrito Capital</span></p>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <h4 class="footer-subtitulo-2 mt-0">
+                            <div class="fa fa-caret-right mr-2"></div>Diseño y desarrollo de recursos educativos digitales
+                        </h4>
+                        <p class="footer-texto"><strong>Francisco José Lizcano Reyes </strong><br /> <span class="text-small">Responsable del equipo<br /></span></p>
+                        <p class="footer-texto"><strong>Leyson Fabian Castaño Perez</strong><br /> <span class="text-small">Integración de recursos y pruebas<br /></span></p>
+                        <p class="footer-texto"> <strong>Yazmin Rocio Figueroa Pacheco</strong><br /><span class="text-small">Diseño web & producción audiovisual<br /></span></p>
+                        <p class="footer-texto"><strong>Edward Leonardo Pico Cabra</strong><br /><span class="text-small">Desarrollo front-end<br /></span></p>
+                        <p class="footer-texto"><span class="text-small text-uppercase">CENTRO INDUSTRIAL DEL DISEÑO Y LA MANUFACTURA </span><br><span class="text-small">Regional Santander</span></p>
+                        <h4 class="footer-subtitulo-2 mt-5">
+                            <div class="fa fa-caret-right mr-2"></div>Gestores de repositorio
+                        </h4>
+                        <p class="footer-texto"><strong>Brayan Steven Pinto Diaz</strong><br />
+                            <strong>Ricardo Alfonso Gonzalez Vargas</strong><br /> <span class="text-small">Validación de recursos.<br /></span></p>
+                        <p class="footer-texto"><span class="text-small text-uppercase">Centro de comercio y servicios </span><br><span class="text-small">Regional Tolima</span></p>
+                    </div>
+                </div>
+                <div class="row justify-content-center align-items-center mt-5"><img src="assets/images/logos/senaLogo.svg" style="max-width:100px"></div>
+            </div>
+        </footer>
+        <section id="cc">
+            <div class="container">
+                <div class="d-flex flex-column flex-sm-row"><span class="pr-3"><i class="icon cc"></i></span><span>Este material puede ser distribuido, copiado y exhibido por terceros si se muestra en los créditos. No se puede obtener ningún beneficio comercial y las obras derivadas tienen que estar bajo los mismos términos de la licencia que el trabajo original.</span></div>
+            </div>
+        </section><a class="scroll-to-top-btn">
+            <div class="fa fa-angle-up fa-2x"></div>
+        </a>
+        <script src="assets/js/vendor.js"></script>
+        <script src="js/local.js"></script>
+    </body>
+</html>
